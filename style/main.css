@@ -64,6 +64,10 @@ footer {
      font-size: 12px;
      text-align: center;
 }
+
+footer p {
+    padding-top: 16px;
+}
 footer ul {
     list-style-type: none;
     margin: 0;
