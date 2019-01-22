@@ -24,6 +24,17 @@
     background-image: url(../images/my_burger_bar.png);
 }
 
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
 /*image*/
 .callout-container {
     background: url('../images/mattTitmuss.jpg') no-repeat center center fixed;
@@ -42,4 +53,38 @@
 
 body {
 font-family: 'Aleo', serif;
+background-color: #3038b0;
+color: #e6ecff;s
 }
+
+/*footer*/
+footer {
+     background-color: #495057;
+     color: white;
+     font-size: 12px;
+     text-align: center;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+footer img {
+    margin: 5px;
+}
+
+footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+  
+ footer li a:hover {
+    background-color: #111111;
+    text-decoration: none;
+    color: white;
+  }
