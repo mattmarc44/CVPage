@@ -1,8 +1,44 @@
-//navbar fix
+/*navbar adjustments*/
 .mr-auto, .mx-auto {
     margin-left: auto!important;
     margin-right: 0!important;
 }
+
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.bg-dark {
+    background-color: transparent!important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+     color: #495057; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../images/my_burger_bar.png);
+}
+
+/*image*/
+.callout-container {
+    background: url('../images/mattTitmuss.jpg') no-repeat center center fixed;
+    height: 50vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*general*/
 
 body {
 font-family: 'Aleo', serif;
