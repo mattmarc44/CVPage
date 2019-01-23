@@ -35,6 +35,36 @@
     border: 0;
 }
 
+/*landing page*/
+.landing-container {
+    text-align: center;
+    width: 100%;
+}
+.landing-container h1 {
+    font-size: 5em;
+    margin-bottom: 15%;
+    margin-top: 29%;
+}
+
+.landing-container a {
+    padding: 20px;
+    margin: 15px;
+    border: 3px solid black;
+    background-color: #555;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 10%;
+    font-size: 1.2em;
+}
+
+.landing-container a:hover {
+    padding: 20px;
+    margin: 15px;
+    border: 3px solid black;
+    background-color: black;
+    color: #555;
+}
+
 /*image*/
 .callout-container {
     background: url('../images/mattTitmuss.jpg') no-repeat center center fixed;
