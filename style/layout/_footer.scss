@@ -1,0 +1,38 @@
+footer {
+    background-color: $mainGrey;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+
+    p {
+      padding-top: 16px;
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: $darkGrey;
+   }
+
+   li {
+      a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 0;
+      text-decoration: none;
+      }
+
+      a:hover {
+         background-color: $blackish;
+         text-decoration: none;
+         color: white;
+       }
+   }
+
+   img {
+      margin: 5px;
+   }
+}

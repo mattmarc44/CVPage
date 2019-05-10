@@ -1,0 +1,19 @@
+
+//base partials
+@import './base/variables';
+@import './base/mixins';
+//@import '../scss/base/reset';
+@import './base/base';
+
+///layout partials
+@import './layout/nav';
+@import './layout/landing';
+@import './layout/callout';
+@import './layout/footer';
+@import './layout/contact';
+
+/*/modules partials
+@import '../scss/modules/blocks';
+@import '../scss/modules/buttons';
+@import '../scss/modules/components';
+@import '../scss/modules/typography';*/

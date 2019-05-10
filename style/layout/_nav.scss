@@ -1,0 +1,36 @@
+/*navbar adjustments from the bootstrap norm*/
+.mr-auto, .mx-auto {
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
+
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.bg-dark {
+    background-color: transparent!important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+     color: $mainGrey; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../images/my_burger_bar.png);
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}

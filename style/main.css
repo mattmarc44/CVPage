@@ -1,157 +1,176 @@
-/*navbar adjustments*/
+body {
+  font-family: 'Aleo', serif;
+  color: #e6ecff;
+}
+
+/*navbar adjustments from the bootstrap norm*/
 .mr-auto, .mx-auto {
-    margin-left: auto!important;
-    margin-right: 0!important;
+  margin-left: auto !important;
+  margin-right: 0 !important;
 }
 
 .navbar-dark .navbar-brand {
-    color: black;
+  color: black;
 }
 
 .bg-dark {
-    background-color: transparent!important;
+  background-color: transparent !important;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: black;
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: black;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-     color: #495057; 
+  color: #495057;
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url(../images/my_burger_bar.png);
+  background-image: url(../images/my_burger_bar.png);
 }
 
 .navbar {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: transparent;
-    border: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  border: 0;
 }
 
-/*landing page*/
 .landing-container {
-    text-align: center;
-    width: 100%;
+  background: url("../images/webby.jpg") no-repeat center center fixed;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
 }
+
 .landing-container h1 {
-    font-size: 5em;
-    margin-bottom: 15%;
-    margin-top: 29%;
+  font-size: 5em;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.landing-container h2 {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 2rem;
 }
 
 .landing-container a {
-    padding: 20px;
-    margin: 15px;
-    border: 3px solid black;
-    background-color: #555;
-    text-decoration: none;
-    color: whitesmoke;
-    border-radius: 10%;
-    font-size: 1.2em;
+  padding: 20px;
+  margin: 15px;
+  border: 3px solid black;
+  background-color: #495057;
+  text-decoration: none;
+  color: white;
+  border-radius: 10%;
+  font-size: 1.2em;
 }
 
 .landing-container a:hover {
-    padding: 20px;
-    margin: 15px;
-    border: 3px solid black;
-    background-color: black;
-    color: #555;
+  padding: 20px;
+  margin: 15px;
+  border: 3px solid black;
+  background-color: black;
+  color: #495057;
 }
 
-/*image*/
+.landing-container .landing-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .callout-container {
-    background: url('../images/mattTitmuss.jpg') no-repeat center center fixed;
-    height: 50vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: url("../images/mattTitmuss.jpg") no-repeat center center fixed;
+  height: 50vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-/*general*/
-
-body {
-font-family: 'Aleo', serif;
-background-color: #3038b0;
-color: #e6ecff;s
-}
-
-/*footer*/
 footer {
-     background-color: #495057;
-     color: white;
-     font-size: 12px;
-     text-align: center;
+  background-color: #495057;
+  color: white;
+  font-size: 12px;
+  text-align: center;
 }
 
 footer p {
-    padding-top: 16px;
+  padding-top: 16px;
 }
+
 footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-footer img {
-    margin: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
 footer li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 0;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
 }
-  
- footer li a:hover {
-    background-color: #111111;
-    text-decoration: none;
-    color: white;
-  }
 
-  /*contact info*/
-  .contactInfo {
-      margin-left: 10px;
-  }
+footer li a:hover {
+  background-color: #111111;
+  text-decoration: none;
+  color: white;
+}
 
-  .contactMe p {
-      font-size: 1.1em;
-      text-align: center;
-  }
+footer img {
+  margin: 5px;
+}
 
-  .contactInfo img {
-    margin-right: 5px;
-  }
+.contactInfo {
+  margin-left: 10px;
+}
 
-  .contactInfo a {
-    padding: 3px;
-    margin: 15px;
-    border: 2px solid black;
-    background-color: #555;
-    text-decoration: none;
-    color: whitesmoke;
-    border-radius: 10%;
-    font-size: 1em;
+.contactInfo img {
+  margin-right: 5px;
+}
+
+.contactInfo a {
+  padding: 3px;
+  margin: 15px;
+  border: 2px solid black;
+  background-color: #555;
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 10%;
+  font-size: 1em;
 }
 
 .contactInfo a:hover {
-    padding: 20px;
-    margin: 15px;
-    border: 3px solid black;
-    background-color: black;
-    color: #555;
+  padding: 20px;
+  margin: 15px;
+  border: 3px solid black;
+  background-color: black;
+  color: #555;
 }
+
+.contactMe p {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/*/modules partials
+@import '../scss/modules/blocks';
+@import '../scss/modules/buttons';
+@import '../scss/modules/components';
+@import '../scss/modules/typography';*/
+/*# sourceMappingURL=main.css.map */
