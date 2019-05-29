@@ -1,0 +1,8 @@
+.fab, .fas {
+    @include icons;
+    @include link;
+}
+
+.row {
+    padding-left: 15px;
+}

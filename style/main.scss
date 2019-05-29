@@ -11,9 +11,7 @@
 @import './layout/callout';
 @import './layout/footer';
 @import './layout/contact';
+@import './layout/onlineCv';
 
-/*/modules partials
-@import '../scss/modules/blocks';
-@import '../scss/modules/buttons';
-@import '../scss/modules/components';
-@import '../scss/modules/typography';*/
+//modules partials
+@import './modules/buttons';

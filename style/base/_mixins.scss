@@ -1,0 +1,17 @@
+@mixin link {    
+    text-decoration: none;
+    transition: all .4s;
+}
+
+@mixin icons {
+    margin: 8px;
+    font-size:1.4rem;
+    background-color: white;
+    color: $darkGrey;
+    padding:.5rem;
+    border-radius: 50%;
+    &:hover {
+        color: $softGrey;
+        background-color: $darkGrey;
+    }
+}

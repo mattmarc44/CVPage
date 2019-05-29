@@ -22,7 +22,7 @@ footer {
       color: white;
       text-align: center;
       padding: 0;
-      text-decoration: none;
+      transition: all 1s;
       }
 
       a:hover {
@@ -34,5 +34,10 @@ footer {
 
    img {
       margin: 5px;
+   }
+
+   .fab, .fas {
+      @include icons;
+      @include link;
    }
 }

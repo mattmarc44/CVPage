@@ -6,6 +6,7 @@
 
 .navbar-dark .navbar-brand {
     color: black;
+    @include link;
 }
 
 .bg-dark {
@@ -17,7 +18,17 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-     color: $mainGrey; 
+    color: $mainGrey; 
+    @include link;
+}
+
+.navbar-dark .navbar-nav .nav-link.landing-link {
+    color: $softGrey; 
+    @include link;
+}
+
+.navbar-dark .navbar-nav .nav-link.landing-link:hover {
+    color: $secCo; 
 }
 
 .navbar-dark .navbar-toggler-icon {

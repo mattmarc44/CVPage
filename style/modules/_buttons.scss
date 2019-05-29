@@ -1,0 +1,26 @@
+.button {
+    padding: 1rem 2rem;
+    border: 1px solid #001f3481;
+    border-radius: 6px;
+    color: $mainCo;
+    background-color: $softGrey;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+.button:hover {
+    color: $softGrey;
+    background-color: $mainCo;
+    text-decoration: none;
+    border: 1px solid #9d9fa081;
+}
+
+.regLink {
+    color: $linkTwo;
+    @include link;
+    text-decoration: underline;
+}
+
+.regLink:hover {
+    color: $link;
+}
