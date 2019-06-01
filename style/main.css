@@ -106,7 +106,7 @@ footer p {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1rem 0;
   overflow: hidden;
   background-color: #333333;
 }
@@ -195,9 +195,9 @@ footer .fab:hover, footer .fas:hover {
   background-color: #333333;
 }
 
-.row {
+/* .row {
   padding-left: 15px;
-}
+} */
 
 .button {
   padding: 1rem 2rem;
