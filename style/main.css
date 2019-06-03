@@ -4,6 +4,10 @@ body {
   color: #e6ecff;
 }
 
+.pSize p {
+  font-size: 1.3rem;
+}
+
 /*navbar adjustments from the bootstrap norm*/
 .mr-auto, .mx-auto {
   margin-left: auto !important;
