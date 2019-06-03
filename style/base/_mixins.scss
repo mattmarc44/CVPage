@@ -15,3 +15,9 @@
         background-color: $darkGrey;
     }
 }
+
+@mixin smallScr {
+    @media (max-width: 600px) {
+        @content
+    }
+}

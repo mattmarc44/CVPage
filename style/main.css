@@ -67,9 +67,17 @@ body {
 }
 
 .landing-container h1 {
-  font-size: 5em;
+  font-size: 5rem;
   text-align: center;
   padding-left: 2rem;
+}
+
+@media (max-width: 600px) {
+  .landing-container h1 {
+    font-size: 3rem;
+    padding-left: 0;
+    padding-bottom: 1rem;
+  }
 }
 
 .landing-container .landing-content {
@@ -195,9 +203,9 @@ footer .fab:hover, footer .fas:hover {
   background-color: #333333;
 }
 
-/* .row {
+.row {
   padding-left: 15px;
-} */
+}
 
 .button {
   padding: 1rem 2rem;
