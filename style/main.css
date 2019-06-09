@@ -245,4 +245,21 @@ footer .fab:hover, footer .fas:hover {
 .regLink:hover {
   color: #00c0ff;
 }
+
+.modal-content {
+  background-color: #495057;
+  color: #e6ecff;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-header .close {
+  color: white;
+}
+
+.modal-footer {
+  border-top: none;
+}
 /*# sourceMappingURL=main.css.map */

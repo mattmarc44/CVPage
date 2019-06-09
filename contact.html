@@ -59,7 +59,7 @@
     <!--main body-->
     <div class="container py-5">
         <div class="contactInfo">
-            <h1>Matt Titmuss - Web Develper</h1>
+            <h1>Matt Titmuss - Web Developer</h1>
             <p>
                 <a href="mailto:matthewmarctitmuss@yahoo.com"><i
                         class="fas fa-envelope"></i></a><strong>E-mail:</strong>
@@ -130,7 +130,28 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <input type="submit" class="button" value="Send message">
+                        <input type="submit" class="button" value="Send message" data-toggle="modal"
+                            data-target="#exampleModalCenter">
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered success" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Success!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>I'll get back to you as soon as I can!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

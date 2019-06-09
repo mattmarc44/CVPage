@@ -1,0 +1,16 @@
+.modal-content {
+    background-color: $mainGrey;
+    color: $secCo;
+
+}
+
+.modal-header {
+    border-bottom: none;
+    .close {
+        color: white;
+    }
+}
+
+.modal-footer {
+    border-top: none;
+}
