@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Aleo', serif;
   background-color: #001f34;
@@ -67,9 +71,15 @@ body {
 }
 
 .landing-container h1 {
-  font-size: 5em;
+  font-size: 5rem;
   text-align: center;
   padding-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-container h1 {
+    font-size: 2rem;
+  }
 }
 
 .landing-container .landing-content {

@@ -9,9 +9,13 @@
     width: 100%;
 
     h1 {
-        font-size: 5em;
+        font-size: 5rem;
         text-align: center;
         padding-left: 2rem;
+
+        @include smallScr {
+            font-size: 2rem;
+        }
     }
 
     .landing-content {
