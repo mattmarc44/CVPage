@@ -8,6 +8,10 @@ body {
   color: #e6ecff;
 }
 
+.pSize p {
+  font-size: 1.3rem;
+}
+
 /*navbar adjustments from the bootstrap norm*/
 .mr-auto, .mx-auto {
   margin-left: auto !important;
@@ -78,7 +82,9 @@ body {
 
 @media only screen and (max-width: 600px) {
   .landing-container h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    padding-left: 0;
+    padding-bottom: 1rem;
   }
 }
 
@@ -116,7 +122,7 @@ footer p {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1rem 0;
   overflow: hidden;
   background-color: #333333;
 }
@@ -125,13 +131,14 @@ footer li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 0;
+  padding: .6rem;
+  border-radius: 2px;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
 footer li a:hover {
-  background-color: #111111;
+  background: radial-gradient(#111111, #00000000, #00000000);
   text-decoration: none;
   color: white;
 }
